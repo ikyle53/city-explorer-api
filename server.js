@@ -18,10 +18,10 @@ app.get('/', (request, response) => {
 
 //API Endpoint /weather for lat, lon, and searchQuery
 app.get('/weather', (request, response) => {
-    // let lon = request.query.lon;
-    // let lat = request.query.lat;
+    let lon = request.query.lon;
+    let lat = request.query.lat;
     let city = request.query.city;
-    let dataToSend = data.find(item => item.city_name === city);
+    let dataToSend = data.find(item => item.city_name === city || item.lat === lat|| item.lon === lon);
     let newWeather = dataToSend.data.map((day) => new Forecast(day.datetime, day.weather.description));
     console.log(dataToSend);
     response.send(newWeather);
