@@ -50,17 +50,14 @@ Actual time needed to complete: 4 hours 15 minutes
 
 Abdulahi Mohamud - Data flow chart ![Dataflow Chart](/src/images/dataflow.png)
 
-
-Lab 06
+Lab 07
 
 Estimate of time needed to complete: 5 hours
 
 Start time: 5:07PM
 
-Finish time: 
+Finish time: 9:07PM
 
-Actual time needed to complete: 
+Actual time needed to complete: 4 hours
 
-Abdulahi Mohamud - Data flow chart ![Dataflow Chart](/src/images/dataflow.png)
-
-Liesl White - Web Request Response Cycle 
+Liesl White - Web Request Response Cycle
