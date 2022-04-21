@@ -12,7 +12,7 @@ This application is used to explore cities! The user enters the name of a city a
 Prerequisites:
 
 ```
-$ node --version
+$ node --version 
 v16.14.0
 
 $ npm --version
@@ -60,7 +60,7 @@ Finish time: 9:07PM
 
 Actual time needed to complete: 4 hours
 
-Liesl White - Web Request Response Cycle
+Liesl White - Web Request Response Cycle 
 
 Lab 08
 
