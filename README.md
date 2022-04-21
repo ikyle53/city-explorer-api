@@ -61,3 +61,13 @@ Finish time: 9:07PM
 Actual time needed to complete: 4 hours
 
 Liesl White - Web Request Response Cycle
+
+Lab 08
+
+Estimate of time needed to complete: 5 hours
+
+Start time: 2:15PM
+
+Finish time: 8:05PM
+
+Actual time needed to complete: 6 hours 10 minutes
