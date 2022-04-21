@@ -48,7 +48,7 @@ Finish time: 6:45PM
 
 Actual time needed to complete: 4 hours 15 minutes
 
-Abdulahi Mohamud - Data flow chart ![Dataflow Chart](/src/images/dataflow.png)
+Abdulahi Mohamud - Data flow chart ![Dataflow Chart](/lab06.png)
 
 Lab 07
 
@@ -60,7 +60,7 @@ Finish time: 9:07PM
 
 Actual time needed to complete: 4 hours
 
-Liesl White - Web Request Response Cycle 
+Liesl White - [Web Request Response Cycle](/lab07.png)
 
 Lab 08
 
@@ -71,3 +71,5 @@ Start time: 2:15PM
 Finish time: 8:05PM
 
 Actual time needed to complete: 6 hours 10 minutes
+
+Chad Moore - [WRRC](/lab08.png)
