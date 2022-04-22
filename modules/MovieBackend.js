@@ -9,7 +9,6 @@ async function getMovies(request, response, next) {
         let results = await axios.get(url);
         let movieArray = results.data.results.map(item => new Movie(item));
         response.status(200).send(movieArray);
-        console.log(results.data);
     } catch (error) {
         Promise.resolve().then(() => {
             throw new Error(error.message);
@@ -20,7 +19,11 @@ async function getMovies(request, response, next) {
 //Class ******************************************************************
 class Movie {
     constructor(items) {
+        let url = 'https://image.tmdb.org/t/p/w500';
         this.name = items.original_title;
+        this.image = url+items.poster_path;
+        this.overview = items.overview;
+        this.vote = items.vote_average;
     }
 }
 
