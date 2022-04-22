@@ -48,7 +48,7 @@ Finish time: 6:45PM
 
 Actual time needed to complete: 4 hours 15 minutes
 
-Abdulahi Mohamud - Data flow chart ![Dataflow Chart](/lab06.png)
+Abdulahi Mohamud - Data flow chart [Dataflow Chart](/lab06.png)
 
 Lab 07
 
@@ -73,3 +73,15 @@ Finish time: 8:05PM
 Actual time needed to complete: 6 hours 10 minutes
 
 Chad Moore - [WRRC](/lab08.png)
+
+Lab 09
+
+Estimate of time needed to complete: 4
+
+Start time: 2:30PM
+
+Finish time: 5:35PM
+
+Actual time needed to complete: 3 hours 5 minutes
+
+Darius Owens - [WRRC](/lab09.png);
