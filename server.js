@@ -1,39 +1,48 @@
 'use strict';
 
-//Reuqired's *************************************************
+//Reuqired *************************************************
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const getMovies = require('./modules/MovieBackend.js');
-const getWeather = require('./modules/WeatherBackend.js');
-require('dotenv').config();
+const weather = require('./modules/weather.js');
+const movie = require('./modules/movie.js');
+
 
 //Uses *******************************************************
 const app = express();
 const PORT = process.env.PORT || 3002;
 app.use(cors());
 
-//Routes *****************************************************
+//Routes *****************************************************   
+app.get('/', (request, response) => response.send('Welcome to my server!'));   
 
+app.get('/weather', weatherHandler);
 
-//Startup page ************
-app.get('/', (request, response) => response.send('heyyyy'));
+function weatherHandler(request, response) {
+    const { lat, lon } = request.query;
+    weather(lat, lon)
+    .then(summaries => response.send(summaries))
+    .catch((error) => {
+      console.error(error);
+      response.status(200).send('Sorry. Something went wrong!')
+    });
+  } 
+ 
+app.get('/movie', movieHandler);
 
-
-//WeatherBit request *****
-app.get('/weather', getWeather);
-
-
-//Movie request ************
-app.get('/movie', getMovies);
-
+function movieHandler(request, response) {
+    const { city } = request.query;
+    movie(city)
+    .then(summaries => response.send(summaries))
+    .catch((error) => {
+      console.error(error);
+      response.status(200).send('Sorry. Something went wrong!')
+    });
+  } 
 
 //Classes ****************************************************
 
 
 //Error handles **********************************************
-
-//Catch all for invalid requests
 app.get('*', (request, response) => response.send('Looks like youre trying to request something I dont have'));
-
-//Listens ****************************************************
-app.listen(PORT, () => console.log(`listening on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server up on ${process.env.PORT}`));
