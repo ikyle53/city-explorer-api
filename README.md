@@ -34,6 +34,10 @@ Installation:
 
 ## Change Log
 1.0.1: 04-18-2021 3:00pm - Setup of the application and deployment test complete.
+1.1.0: 04-19-2021 8:00pm - Set up back end server and linked to front end.
+1.2.0: 04-20-2021 5:00pm - UI in place. API are being contacted for data.
+1.3.0: 04-21-2021 5:43pm - Site is fully functional with API being fed to the UI.
+1.4.0: 04-22-2021 6:30pm - Site was modulerized and refigured. Much cleaner.
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
@@ -92,8 +96,8 @@ Estimate of time needed to complete: 4 hours
 
 Start time: 3:10PM
 
-Finish time: 
+Finish time: 6:30PM
 
-Actual time needed to complete: 
+Actual time needed to complete: 6 hours 20 minutes
 
-Darius Owens - [Dataflow Chart 10](/lab10.png)
+Scott Evans/Jon Rumsey - [Dataflow Chart 10](/lab10.png)
